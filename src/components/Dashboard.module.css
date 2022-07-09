@@ -1,0 +1,92 @@
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 7%;
+    border-right: 1px solid rgb(221, 213, 213);
+    height: 100vh;
+    align-content: center;
+}
+
+.imageDiv {
+    width:60px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.imageDiv img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-bottom: 8px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.right {
+    width: 92%;
+    height: 100vh;
+    padding: 30px;
+ }
+
+.sidebarIcons {
+    margin: auto;
+    margin-top: 80px;
+}
+
+.iconsDiv {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+i {
+    font-size: 22px;
+    color: rgb(126, 121, 121);
+}
+
+i:hover {
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(99,151,245);
+}
+
+.card {
+    width: 450px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(244, 235, 235);
+}
+
+.cardDiv {
+    padding: 20px;
+    border-bottom: 1px solid rgb(245, 239, 239);
+}
+
+.cardDivTop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardDivTop img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.cardDivTopLeft {
+    line-height: 5px;
+    font-size: 13px;
+}
+
+.cardDivTopBottom p{
+    font-size: 13px;
+}
